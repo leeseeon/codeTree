@@ -103,7 +103,7 @@ int main() {
             }
             else{
                 list* node = head;
-                while(node->next !=NULL){
+                while(node !=NULL){
                     count++;
                     node = node->next;
                 }

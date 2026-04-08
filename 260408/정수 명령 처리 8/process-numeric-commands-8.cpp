@@ -100,7 +100,7 @@ int main() {
         if(command[i] == "size"){
             int count = 0;
             if(head == NULL){
-                continue;
+                cout << 0 << endl;
             }
             else{
                 list* node = head;

@@ -102,9 +102,6 @@ int main() {
             if(head == NULL){
                 continue;
             }
-            else if(head == tail){
-                cout << 1 << endl;
-            }
             else{
                 list* node = head;
                 while(node !=NULL){

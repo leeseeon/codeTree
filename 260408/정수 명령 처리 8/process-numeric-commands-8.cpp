@@ -71,7 +71,9 @@ int main() {
             }
             else{
                 cout << head->data << endl;
+                list* temp = head;
                 head = head->next;
+                delete temp;
             }
         }
         if(command[i] == "pop_back"){
@@ -89,8 +91,10 @@ int main() {
                 while(node->next !=tail){
                     node = node->next;
                 }
+                list* temp = tail;
                 node->next = NULL;
                 tail = node;
+                delete temp;
             }
         }
         if(command[i] == "size"){

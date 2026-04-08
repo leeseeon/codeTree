@@ -125,7 +125,7 @@ int main() {
         }
         if(command[i] == "front"){
             if(head == NULL){
-                continue;
+                cout << 0 << endl;
             }
             cout << head->data << endl;
         }

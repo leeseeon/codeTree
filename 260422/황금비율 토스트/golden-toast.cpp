@@ -1,8 +1,8 @@
 #include <iostream>
 using namespace std;
 
-char cmd[10000];
-char cmd2[10000];
+char cmd[100000];
+char cmd2[100000];
 
 struct list{
     char word;
